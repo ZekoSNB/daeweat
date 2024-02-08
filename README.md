@@ -11,3 +11,21 @@
 - ReactJS
 - TypeScript (*TSX*) / JavaScript (*JSX*)
 - [OpenWeathermapAPI](https://openweathermap.org/api/one-call-3)
+
+# Color sets:
+
+## Background sets
+### Primary Color :
+> #2F1C53
+### Secondary Color: 
+> #A46DFF
+### Tone Color: 
+> #F6D1FD
+
+## Text color:
+
+### Primary color:
+> #E1E1E1
+
+### Secondary color:
+> #222222

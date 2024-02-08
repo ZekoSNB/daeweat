@@ -1,10 +1,11 @@
 import './App.css';
+import Input from './components/Input.tsx';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React App</h1>
+        <Input />
       </header>
     </div>
   );
