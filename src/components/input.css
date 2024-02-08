@@ -5,18 +5,38 @@
 
 .form_control > button{
     transition: 0.25s ease-in;
-    margin-top: 3px;
+    color: #222222;
+    width: 50%;
+    border: 1px solid #2F1C53;
+    margin: auto;
     padding: 10px;
     border-radius: 5px;
-    background-color: #f5f5f5;
+    background-color: #F6D1FD;
     letter-spacing: 2px;
     text-transform: uppercase;
-    border: none;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .form_control > button:hover{
     transition: 0.25s ease-in;
-    background-color: #e0e0e0;
+    color: #E1E1E1;
+    border-color: #F6D1FD;
+    background-color: #A46DFF;
     transform: scale(1.1);
+}
+
+.form_input {
+    color: #E1E1E1;
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+    border: 1px solid #F6D1FD;
+    outline: none;
+    background-color: #2F1C53;
+    transition: 0.25s ease-in;
+}
+
+::placeholder {
+    text-align: center;
 }
