@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.form_control:hover {
+    transition: 0.25s ease-in;    
+}
+
 .form_control > button{
     transition: 0.25s ease-in;
     color: #222222;
@@ -22,6 +26,7 @@
     transition: 0.25s ease-in;
     color: #E1E1E1;
     border-color: #F6D1FD;
+    box-shadow: 0 10px 15px 3px #F6D1FD; /* Adjust values for desired glow effect */
     background-color: #A46DFF;
     transform: scale(1.1);
 }
