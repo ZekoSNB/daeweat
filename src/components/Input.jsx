@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Get_Location from './Get_Location';
+// import Get_Location from './Get_Location';
 import './input.css';
 
 function Input() {
@@ -21,7 +21,7 @@ function Input() {
                 <button className="form_button" type="submit">Add</button>
             </div>
         </form>
-        <Get_Location city={value} />
+        {/* <Get_Location city={value} /> */}
         </>
     );
 }
